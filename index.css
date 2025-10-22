@@ -31,11 +31,8 @@ body{
 .pra{
     width: 35%;
 }
-.story{
-    height:100vh;
-}   
 .order-btn {
-  background-color: #7CFC00; /* bright green */
+  background-color: #7CFC00;
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
@@ -65,21 +62,118 @@ body{
 }
 
 .order-btn:hover {
-  background-color: #5fc900; /* darker green on hover */
+  background-color: #5fc900;
   transform: scale(1.05);
 }
 
 .about{
   margin: 5rem;
-  
 }
 
 .story-image{
-  padding-top: 5rem;
+  padding-top: 6rem;
   
 }
 
 .about-image{
     border-radius: 2rem;
-    width: 100%;
 }
+.story-heading{
+  padding-bottom:2rem;
+  font-weight: bold;
+  font-size: 3.4rem;
+  color:#7CFC00;;
+}
+.pargrph{
+  font-size: 1rem;
+}
+/* gallery */
+.gallery-heading{
+  text-align: center;
+  font-size: 3.5rem;
+} 
+.gallery-paragraph{
+  text-align: center;
+}
+/* slider */
+
+
+.Question-heading{
+  color:#7CFC00;
+  font-weight: bold;
+}
+.Questions{
+  width: 58%;
+}
+.icon{
+   background-color: #e6f4ea;
+  color: #2e7d32;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 2rem;
+}
+.dropdown-icon {
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-left: 8px;
+}
+/* footer */
+
+.time ul{
+  margin: auto;
+  width: 775px;
+  height: 181px;
+  background-color: #2e7d32;
+  color:white;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;   
+  padding: 2rem;
+  border-radius: 2rem;
+  
+}
+.footer-main{
+  background-color: #000;
+  color: white;
+  height: 50vh;
+  z-index: 4;
+  
+}
+.footer-nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+.footer-nav a{
+  text-decoration: none;
+  color: white;
+}
+.footer-link {
+  text-align: center;
+ margin: auto;
+  width: 389px;
+  
+}
+.footer-link a{
+  color: white;
+}
+.footer-p{
+  text-align: center;
+}
+
+
